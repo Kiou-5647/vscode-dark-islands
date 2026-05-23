@@ -87,9 +87,9 @@ fi
 
 echo ""
 echo "⚙️  Step 4: Applying VS Code settings..."
-SETTINGS_DIR="$HOME/.config/Code/User"
+SETTINGS_DIR="$HOME/.config/VSCodium/User"
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    SETTINGS_DIR="$HOME/Library/Application Support/Code/User"
+    SETTINGS_DIR="$HOME/Library/Application Support/VSCodium/User"
 fi
 
 mkdir -p "$SETTINGS_DIR"
